@@ -1,0 +1,10 @@
+{
+    "title": "moga-component",
+    "properties": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "value": ""
+        }
+    }
+}

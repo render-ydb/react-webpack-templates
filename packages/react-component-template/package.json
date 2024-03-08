@@ -1,0 +1,19 @@
+{
+  "name": "@x.render/react-component-template",
+  "version": "0.0.3",
+  "description": "react component template",
+  "author": "render.yangdaobo@gmail.com",
+  "homepage": "",
+  "license": "ISC",
+  "files": [
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/x-render-ydb/react-webpack-templates.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a98d3145e35cdc2d887b4fa7e76f164da458fe37"
+}

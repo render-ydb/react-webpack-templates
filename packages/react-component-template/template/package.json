@@ -1,0 +1,34 @@
+{
+  "name": "react-component-template",
+  "version": "1.0.0",
+  "description": "react component template",
+  "main": "build/lib/mobile/index.js",
+  "module": "build/es/mobile/index.js",
+  "scripts": {
+    "prepare": "npx render-lint init  --force",
+    "start": "render-builder start",
+    "build": "render-builder build"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@x.render/build-react-component-webpack-preset": "^1.1.0",
+    "@x.render/render-builder": "^1.0.5",
+    "@x.render/render-lint": "^1.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@x.render/render-picture": "^1.1.0",
+    "@x.render/render-text": "^1.1.0",
+    "@x.render/render-view": "^1.1.0"
+  }
+}

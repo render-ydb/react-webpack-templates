@@ -1,0 +1,12 @@
+{
+  "name": "react-webpack-templates",
+  "version": "1.0.0",
+  "description": "#### 介绍 基于render-builder的各种react应用模板，构建工具为webpack",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "lerna": "^7.4.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
