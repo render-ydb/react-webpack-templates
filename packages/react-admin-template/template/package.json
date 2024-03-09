@@ -1,0 +1,30 @@
+{
+  "name": "react-admin-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "render-builder start --config build.js",
+    "build": "render-builder build --config build.js",
+    "prepare": "npx render-lint init --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@x.render/build-react-admin-webpack-plugin": "^1.1.0",
+    "@x.render/render-lint": "^1.1.2",
+    "@x.render/render-builder": "^1.0.5",
+    "@types/react": "^18.2.36",
+    "@types/react-dom": "^18.2.14",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@x.render/render-react-admin-layout": "^1.0.0",
+    "@reduxjs/toolkit": "^1.9.7",
+    "antd": "^5.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.18.0"
+  }
+}
