@@ -2,6 +2,7 @@
   "name": "@x.render/react-admin-template",
   "version": "1.1.2",
   "description": "React backend applications",
+  "author": "render.yangdaobo@gmail.com",
   "files": [
     "template"
   ],
@@ -13,7 +14,6 @@
     "url": "https://github.com/render-x/react-webpack-templates"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
-  "gitHead": "04d2afd6045259581081399a2b4a83b298d1b487"
+  "gitHead": "3c8de415ca0bc8b7450f6d2f71aa998a83c966db"
 }
