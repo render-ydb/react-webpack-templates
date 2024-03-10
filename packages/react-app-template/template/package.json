@@ -1,0 +1,44 @@
+{
+  "name": "react-app-template",
+  "version": "1.1.3",
+  "description": "react app template",
+  "author": "render.yangdaobo@gmail.com",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/render-x/react-webpack-templates.git"
+  },
+  "scripts": {
+    "prepare": "npx render-lint init  --force",
+    "start": "render-builder start",
+    "build": "render-builder build",
+    "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "stylelint-fix": "stylelint --fix src**/*.{css,scss,less}",
+    "render-lint-fix": "npm run eslint-fix && npm run stylelint-fix"
+  },
+  "bugs": {
+    "url": "https://github.com/render-x/react-webpack-templates/issues"
+  },
+  "dependencies": {
+    "@x.render/render-text": "^1.1.0",
+    "@x.render/render-view": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@x.render/render-builder": "^1.0.5",
+    "@x.render/render-lint": "^1.1.2",
+    "typescript": "^5.4.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint",
+    "src/**/*.{css,scss,less}": "stylelint"
+  }
+}

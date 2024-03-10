@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "title": "Home Page",
+      "path": "/home",
+      "source": "./pages/Home/index"
+    }
+  ],
+  "window": {
+    "title": "global  title"
+  }
+}

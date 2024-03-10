@@ -1,0 +1,19 @@
+{
+  "name": "@x.render/react-app-template",
+  "version": "1.0.0",
+  "description": "react app template",
+  "author": "render.yangdaobo@gmail.com",
+  "homepage": "",
+  "license": "ISC",
+  "files": [
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/render-x/react-webpack-templates"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "ea1d7aa506385832d95063119f1fc272fa0391a7"
+}
