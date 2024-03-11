@@ -1,7 +1,7 @@
 import { Suspense, useState } from "react";
 import { MenuProps, ConfigProvider } from "antd";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
-import Layout from "@x.render/render-react-admin-layoutt";
+import Layout from "@x.render/render-react-admin-layout";
 import AppUser from "./AppUser";
 import menuItems from "./AppMenu";
 import LogoImg from "./logo.png";
