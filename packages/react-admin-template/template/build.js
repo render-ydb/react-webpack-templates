@@ -1,4 +1,5 @@
 module.exports = {
+  builder: "webpack",
   plugins: [
     [
       "@x.render/build-react-admin-webpack-plugin",
