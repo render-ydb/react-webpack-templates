@@ -18,7 +18,7 @@
   "scripts": {
     "prepare": "npx render-lint init  --force",
     "start": "render-builder start --config build.ts",
-    "build": "render-builder build",
+    "build": "render-builder build --config build.ts",
     "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "stylelint-fix": "stylelint --fix src**/*.{css,scss,less}",
     "render-lint-fix": "npm run eslint-fix && npm run stylelint-fix"
