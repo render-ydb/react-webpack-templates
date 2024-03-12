@@ -17,7 +17,7 @@
   },
   "scripts": {
     "prepare": "npx render-lint init  --force",
-    "start": "render-builder start",
+    "start": "render-builder start --config build.ts",
     "build": "render-builder build",
     "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "stylelint-fix": "stylelint --fix src**/*.{css,scss,less}",
@@ -33,6 +33,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@x.render/build-react-app-webpack-plugin": "file:../../../../render-webpack-config/packages/build-react-app-webpack-plugin",
     "@x.render/render-builder": "^1.0.5",
     "@x.render/render-lint": "^1.1.2",
     "typescript": "^5.4.2"

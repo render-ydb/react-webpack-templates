@@ -3,7 +3,7 @@
     {
       "title": "Home Page",
       "path": "/home",
-      "source": "./pages/Home/index"
+      "source": "pages/Home"
     }
   ],
   "window": {
