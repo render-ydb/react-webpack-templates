@@ -4,6 +4,11 @@
       "title": "Home Page",
       "path": "/home",
       "source": "pages/Home"
+    },
+    {
+      "title": "Test Page",
+      "path": "/test",
+      "source": "pages/Test"
     }
   ],
   "window": {
