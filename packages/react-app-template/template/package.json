@@ -33,7 +33,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@x.render/build-react-app-webpack-plugin": "^1.10.0",
+    "@x.render/build-react-app-webpack-plugin": "^1.11.1",
     "@x.render/render-builder": "^1.3.0",
     "@x.render/render-lint": "^1.1.2",
     "typescript": "^5.4.2"
