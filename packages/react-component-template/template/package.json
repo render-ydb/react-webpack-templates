@@ -16,7 +16,7 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
-    "@x.render/build-react-component-webpack-preset": "^1.7.0",
+    "@x.render/build-react-component-webpack-preset": "^1.10.0",
     "@x.render/render-builder": "^1.3.0",
     "@x.render/render-lint": "^1.1.2",
     "react": "^18.2.0",
