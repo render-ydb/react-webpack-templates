@@ -1,5 +1,4 @@
-import View from "@x.render/render-view";
-import Text from "@x.render/render-text";
+import {View,Text} from "@x.render/render-ui";
 const TestPage = () => {
   return (
     <View>
