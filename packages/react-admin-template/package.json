@@ -4,7 +4,8 @@
   "description": "React backend applications",
   "author": "render.yangdaobo@gmail.com",
   "files": [
-    "template"
+    "template",
+    "template/.gitignore"
   ],
   "publishConfig": {
     "access": "public"

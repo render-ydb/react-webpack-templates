@@ -6,7 +6,8 @@
   "homepage": "",
   "license": "ISC",
   "files": [
-    "template"
+    "template",
+    "template/.gitignore"
   ],
   "repository": {
     "type": "git",
